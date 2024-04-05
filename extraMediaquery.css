@@ -1,0 +1,192 @@
+@media screen and (min-width:200px) and (max-width: 600px) {
+    body {
+        background-color: rgb(156, 156, 236);
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 1px 2px 10px rgb(25, 1, 1);
+        height: 8vh; /* Adjusted height for smaller screens */
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    #nav img {
+        width: 80px; /* Adjusted width for smaller screens */
+    }
+
+    #home {
+        width: 100%;
+        height: auto; /* Changed to auto height for responsiveness */
+        text-align: center;
+    }
+
+    #home img {
+        width: 150px; /* Adjusted width for smaller screens */
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    #home h1 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    #home h1 span {
+        font-size: 60px; /* Adjusted font size for smaller screens */
+    }
+
+    #home p {
+        font-size: 12px; /* Adjusted font size for smaller screens */
+    }
+
+    #homebtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    #home button {
+        padding: 2px 6px; /* Adjusted padding for smaller screens */
+        margin-left: 10px; /* Adjusted margin for smaller screens */
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    /* Adjusted styles for the about section */
+    #about-us {
+        width: 100%;
+        height: auto; /* Changed to auto height for responsiveness */
+        padding-top: 0vh;
+        background-color: #fff;
+    }
+
+    #about-us h6 {
+        text-align: center;
+        font-size: 20px; /* Adjusted font size for smaller screens */
+        padding-top: 10px;
+        font-family: sans-serif;
+        letter-spacing: 3px; /* Adjusted letter spacing for smaller screens */
+    }
+
+    #about img {
+        width: 80%; /* Adjusted width for smaller screens */
+        padding: 10px; /* Adjusted padding for smaller screens */
+        margin: auto; /* Centered the image */
+    }
+
+    #about ul h1 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+        color: blue;
+    }
+
+    #about ul li {
+        list-style-type: square;
+        padding: 5px;
+        font-size: 12px; /* Adjusted font size for smaller screens */
+    }
+
+    /* Adjusted styles for the feature section */
+    #feature {
+        height: auto; /* Changed to auto height for responsiveness */
+        padding-top: 0vh;
+    }
+
+    #feature h5 {
+        padding-left: 10px; /* Adjusted padding for smaller screens */
+        color: #fff;
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    .container1 {
+        width: 90%; /* Adjusted width for smaller screens */
+        padding: 10px; /* Adjusted padding for smaller screens */
+        margin: auto; /* Centered the container */
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .container1 h1 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    .container2 {
+        width: 90%; /* Adjusted width for smaller screens */
+        padding: 5px; /* Adjusted padding for smaller screens */
+        margin: auto; /* Centered the container */
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .container2 h3 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    .container2 button {
+        padding: 4px; /* Adjusted padding for smaller screens */
+        margin-top: 20px; /* Adjusted margin for smaller screens */
+        border-radius: 15px; /* Adjusted border radius for smaller screens */
+    }
+
+    /* Adjusted styles for the overview section */
+    #overview {
+        padding-top: 5vh;
+        width: 100%;
+        height: auto; /* Changed to auto height for responsiveness */
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    .achivement {
+        width: 90%; /* Adjusted width for smaller screens */
+        height: 6vh; /* Adjusted height for smaller screens */
+        padding: 10px; /* Adjusted padding for smaller screens */
+        margin: auto; /* Centered the container */
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+        border-radius: 15px; /* Adjusted border radius for smaller screens */
+        text-align: center;
+    }
+
+    .achivement div {
+        padding: 8px; /* Adjusted padding for smaller screens */
+        font-size: 15px; /* Adjusted font size for smaller screens */
+        color: #000000;
+        font-weight: 300;
+    }
+
+    /* Adjusted styles for the contact section */
+    #contact-address {
+        background-color: rgb(178, 191, 201);
+        width: 90%;
+        padding: 4%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 5%;
+        box-shadow: 1px 4px 10px rgb(21, 21, 21);
+    }
+
+    .contact-address-map iframe {
+        width: 90%; /* Adjusted width for smaller screens */
+        height: 250px; /* Kept constant height for map */
+        margin: auto; /* Centered the map */
+        margin-top: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    .contact-address-detail div {
+        color: rgb(0, 0, 0);
+    }
+
+    .contact-address-detail div i {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .contact-address-detail h1 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+}

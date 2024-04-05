@@ -1,0 +1,362 @@
+body {
+  background-color: rgb(156, 156, 236);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Home-popup{
+  display: none;
+}
+
+
+#nav{
+  background-color: rgba(141, 141, 215, 0.95);
+  box-shadow: 1px 2px 10px rgb(25, 1, 1);
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 777;
+}
+.mobileNav{
+  display: none;
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+}
+#nav img {
+  width: 210px;
+}
+#nav ul {
+  margin-right: 50px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#nav ul li{
+  padding: 5px 15px;
+}
+#nav ul li:hover {
+  background-color: rgba(229, 229, 234, 0.4);
+  border-radius: 20px;
+}
+
+#home {
+  height: 90vh;
+  padding-top: 10vh;
+  background-color: #ffffff;
+}
+
+
+.animate {
+  transition:  right 1s ease ,left 1s ease; /* Transition the left property over 1 second */
+}
+
+.homeText{
+ /* background-color: red; */
+  width: 700px;
+margin-left: 100px;
+
+overflow: hidden; /* Hide the content initially */
+position: relative;
+left: -700px; 
+
+}
+
+.homeImg{
+  width: 500px;
+  /* background-color: red; */
+  float: right;
+  /* background-color: red; */
+  margin-top: 100px;
+  margin-right: 50px;
+
+  overflow: hidden; /* Hide the content initially */
+  position: relative;
+  right: -600px; 
+  
+
+}
+
+.homeImg img {
+   width: 450px; 
+   transition: all 1s ease;
+}
+.homeImg img:hover{
+  width: 550px;
+  
+}
+
+#home h1 {
+  padding-top: 80px;
+  font-size: 60px;
+  padding-left: 40px;
+}
+#home h1 span{
+  color: rgb(204, 12, 12);
+  font-size: 90px;
+  letter-spacing: -15px;
+}
+#home p {
+  padding-left: 40px;
+  color: rgb(4, 25, 25);
+  font-size: 20px;
+
+}
+
+
+.homebtn{
+  padding: 8px 15px 8px 15px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 100px;
+  transition: all 0.5s ease;
+}
+.homebtn:hover{
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 0, 0);
+  
+}
+.homebtn:hover{
+  transition: all 0.8s ease;
+}
+
+
+/* about start */
+#about-us {
+  width: 100%;
+  height: 80vh;
+  /* background-color: ; */
+}
+
+.aboutTitle{
+margin:30px  auto;
+  /* background-color: blue; */
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+  border-bottom: 5px solid  black;
+
+}
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+}
+
+#about img {
+  height: 440px;
+
+}
+
+
+#aboutHead h1{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ffffff53;
+  width: 380px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 2px 20px;
+}
+
+
+#about ul {
+  width: 50%;
+}
+
+#about ul h1 {
+  font-size: 50px;
+  color: blue;
+}
+
+#about ul li {
+  list-style-type: square;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#about ul li:hover {
+  color: red;
+}
+
+/* start why to choose yammy */
+#feature {
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+#feature h5 {
+  padding-left: 30px;
+
+
+  color: #fff;
+  font-size: 40px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.container1 {
+  width: 23%;
+  height: 300px;
+  background-color: rgb(164, 197, 217);
+  padding: 20px 20px 20px 20px;
+  border: 1px solid rgb(146, 209, 232);
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: height 0.3s;
+  text-align: center;
+}
+
+.container1 h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.container1:hover {
+  height: 350px;
+}
+
+.container2 {
+  text-align: center;
+  width: 23%;
+  height: 400px;
+  background-color: rgb(158, 10, 10);
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgb(146, 209, 232);
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.container2 h3 {
+  font-size: 30px;
+}
+
+.container2 button {
+  padding: 8px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: transparent;
+}
+
+.container2 button:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+/* overview  start  ?? Achivement start */
+#overview {
+  padding-top: 10vh;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  margin-bottom: 120px;
+}
+#overview img {
+  height: 102vh;
+  width: 100%;
+  position: absolute;
+}
+.achivement {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+}
+.achivement div {
+  font-size: 40px;
+  padding-left: 60px;
+  color: #000000;
+  font-weight: 600;
+}
+/* 
+contact start */
+
+#contact-address {
+  background-color: rgb(178, 191, 201);
+  display: flex;
+  width: 87%;
+  padding: 4%;
+  margin: auto;
+  margin-bottom: 5%;
+  box-shadow: 1px 4px 10px rgb(21, 21, 21);
+}
+.contact-address-map iframe {
+  width: 100%;
+  margin-left: 20px;
+}
+.contact-address-detail div {
+  color: rgb(0, 0, 0);
+}
+
+.contact-address-detail div i {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-address-detail h1 {
+  font-size: 30px;
+}
+
+/* 
+ footer start */
+#footer {
+  height: 30px;
+  background-color: black;
+  color: white;
+
+
+  text-align: center;
+}
+#footer a {
+  color: white;
+}
+#footer p {
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
